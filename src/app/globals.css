@@ -1,0 +1,23 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  color: #fff;
+  background-color: #000;
+}
+
+body {
+  color: #fff;
+  background: #000;
+}
+
+.radix-themes {
+  --my-brand-color: #004EE2;
+  --my-brand-color-pri: #1B1B1B;
+  --indigo-9: var(--my-brand-color);
+  --indigo-a9: var(--my-brand-color);
+
+  --lime-9: var(--my-brand-color-pri);
+  --lime-a9: var(--my-brand-color-pri);
+}
