@@ -10,7 +10,7 @@ type ITabProps = {
 const Tab = (props: ITabProps) => {
   return (
     <div
-      className={`tab p-1 px-6  cursor-pointer ${props.id === props.activeTab ? 'active bg-[#242424] font-bold rounded-full' : ''}`}
+      className={`tab p-1 px-6 text-sm sm:text-base cursor-pointer ${props.id === props.activeTab ? 'active bg-[#242424] font-bold rounded-full' : ''}`}
       onClick={() => props.onClick(props.id)}
     >
       {props.tabLabel}

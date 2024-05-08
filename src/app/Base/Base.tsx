@@ -22,8 +22,8 @@ const Base = () => {
   return (
     <Background>
       <div className='text-white flex items-center justify-center mt-10 w-full'>
-        <div className='p-10 w-[35%]'>
-          <div className='flex gap-5 text-left text-lg'>
+        <div className='px-3 pt-10 w-[95%] sm:px-5 sm:w-[70%] md:w-[55%] lg:w-[45%] xl:px-10 xl:w-[35%]'>
+          <div className='flex gap-1 md:gap-5 text-left text-lg'>
             <Tab tabLabel='Swap' id={1} activeTab={activeTab} onClick={handleChangeTab} />
             <Tab tabLabel='Limit' id={2} activeTab={activeTab} onClick={handleChangeTab} />
             <Tab tabLabel='Send' id={3} activeTab={activeTab} onClick={handleChangeTab} />

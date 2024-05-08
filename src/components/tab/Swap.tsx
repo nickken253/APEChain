@@ -28,7 +28,7 @@ const Card = () => {
     }
     return (
         <div className='flex justify-between'>
-            <input className='bg-transparent text-white outline-none w-fit max-w-[60%] font-bold text-5xl' type="text" defaultValue={0} onKeyUp={() => handleChange} />
+            <input className='bg-transparent text-white outline-none w-fit max-w-[60%] font-bold  sm:text-5xl text-4xl' type="text" defaultValue={0} onKeyUp={() => handleChange} />
             <div>
                 <Select.Root defaultValue="APE">
                     <Select.Trigger radius='full' />
